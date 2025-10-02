@@ -156,4 +156,8 @@ Selected Positions {data-icon=suitcase}
 
 ```{r}
 position_data %>% print_section('positions')
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> e0af4b030e966cffcf27ece9f6dc0c4ce01dd7fe
