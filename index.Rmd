@@ -97,7 +97,7 @@ All projects available at `https://github.com/MRH-Worx`
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV at nickstrayer.me/cv for more complete list of positions and publications.
+See full resume at https://mrh-worx.github.io/resume/ for more complete list of positions and publications.
 
 
 Disclaimer {#disclaimer}
