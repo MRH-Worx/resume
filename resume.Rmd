@@ -1,6 +1,6 @@
 ---
-title: Nick Strayer's Resume"
-author: Nick Strayer
+title: "Matt Haar's Resume"
+author: Matt Haar
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -54,11 +54,11 @@ Contact {#contact}
 
 
 
-- <i class="fa fa-envelope"></i> nick.strayer@gmail.com
-- <i class="fa fa-twitter"></i> NicholasStrayer
-- <i class="fa fa-github"></i> github.com/nstrayer
-- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
-- <i class="fa fa-phone"></i> (734) 645-0110
+- <i class="fa fa-envelope"></i> mhaar@asu.edu
+- <i class="fa fa-twitter"></i> MyTwitter
+- <i class="fa fa-github"></i> github.com/MRH-Worx
+- <i class="fa fa-link"></i> [LinkedIn](https://www.linkedin.com/in/matthew-h-26b8928a/)
+- <i class="fa fa-phone"></i> (111) 111-1111
 
 
 
@@ -69,13 +69,14 @@ Language Skills {#skills}
 ```{r}
 skills <- tribble(
   ~skill,               ~level,
-  "R",                  5,
-  "Javascript (d3.js)", 4.5,
-  "Python",             4,
-  "Bash",               3.5,
-  "SQL",                3,
-  "C++",                3,
-  "AWK",                3
+  "R",                  2.5,
+  #"Javascript (d3.js)", 0,
+  "Python",             1.5,
+  #"Bash",               0,
+  "SQL",                1,
+  #"C++",                0,
+  #"AWK",                0,
+  "PowerBI",             2.5
 )
 build_skill_bars(skills)
 ```
@@ -85,7 +86,7 @@ build_skill_bars(skills)
 Open Source Contributions {#open-source}
 --------------------------------------------------------------------------------
 
-All projects available at `github.com/nstrayer/<name>`
+All projects available at `https://github.com/MRH-Worx`
 
 
 - `shinysense`: R package to use sensor data in Shiny apps
@@ -114,13 +115,25 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Matthew Haar {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "I have made [visualizations viewed by hundreds of thousands of people](https://www.nytimes.com/interactive/2016/08/26/us/college-student-migration.html), [sped up query times for 25 terabytes of data by an average of 4,800 times](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/), and built [packages for R](https://github.com/nstrayer/shinysense) that let you [do magic](http://nickstrayer.me/dataDayTexas/).
+intro_text <- "I am an executive advisor and strategic operations professional with 18 years of experience supporting senior leaders at the highest levels of government. My career has centered on bridging strategy, operations, and implementation, ensuring executives have the insights, processes, and structures needed to succeed in complex environments.
 
-Currently searching for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
+I turn senior leader intent into actionable strategies and solutions that strengthen decision-making and mission success through policy, operations, or emerging tools like data and AI. 
+
+QUALIFICATIONS SUMMARY
+
+•	Proven ability to synthesize complex information into clear, persuasive executive products such as decision memos, policy papers, and strategic briefs supporting high-level policy and strategy development.
+
+•	Overseas administrative and operational activities, aligning staff actions with senior leader priorities and identifying risks to ensure mission success.
+
+•	Leader in AI and data modernization, developing dashboards, automated reporting, and an AI prompt library to improve efficiencies and drive a culture of modernization.
+
+•	Experience collaborating with external partners, including supporting a Department of State partnership by drafting and reviewing the memorandum of agreement and assisting in developing the capability testing plan that informed final funding approval.
+
+•	Experienced supervisor of civilians, officers, and enlisted personnel; Sets performance standards, mentors, and develops teams to meet evolving mission requirements.
 "
 
 
@@ -143,14 +156,6 @@ Selected Positions {data-icon=suitcase}
 
 ```{r}
 position_data %>% print_section('positions')
-```
-
-Selected Writing {data-icon=newspaper}
---------------------------------------------------------------------------------
-
-
-```{r}
-position_data %>% print_section('writings')
 ```
 
 
